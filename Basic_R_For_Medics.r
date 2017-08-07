@@ -29,7 +29,7 @@ typeof(b) # returns "double"
 
 # complex
 
-c <- 8 + 1n # this is a complex number
+c <- 8 + x # this is a complex number
 typeof(c) # returns "complex". Note R only processes the script by line so be sure to execute the variable assignment first
 
 # character
