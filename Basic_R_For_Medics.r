@@ -76,4 +76,35 @@ name <- "John"
 greet <- paste(title, name)
 greet # prints "Sir John" all together, with whitespace added
 
-# to be continued
+# Logical operators:
+# TRUE can be T as well
+# FALSE can be F as well
+
+5<6 # will return True as 5 is less than 6
+
+6<=6 # will return True as 6 is equal to 6 <= is less than or equal to!
+
+1 == 100 # will return False as 1 is not equal to 100
+
+# other operators include:
+# ! - Not
+# & - And
+# != Not equal to
+# isTRUE(x) checks if x is true
+# variables can be assigned to objects
+
+result <- 5 < 6
+
+# then run result:
+result # will return True
+typeof(result) # will return "logical"
+
+# ok so lets reassign result:
+
+result <- !(TRUE)
+result # now prints False as it is not True
+
+result2 <- !(1<2) # this will achieve the same result as the comparison is True
+result2 # returns False
+
+# to be continued...
